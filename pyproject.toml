@@ -1,0 +1,8 @@
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+asyncio_mode = "auto"
+markers = [
+    "llm: requires a running Ollama instance (slow, skipped by default)",
+    "network: requires real internet access (slow/flaky, skipped by default)",
+]
+addopts = "-m 'not llm and not network'"

@@ -1,0 +1,25 @@
+{
+  "domain": "acmecrm.example",
+  "company_name": "Acme CRM",
+  "value_proposition": "The simplest CRM for small sales teams.",
+  "target_icp": "Small B2B sales teams, 1-20 reps",
+  "pricing_tiers": [
+    {
+      "name": "Starter",
+      "price": "$19/mo",
+      "billing_period": "monthly",
+      "key_inclusions": ["Up to 3 users", "Basic pipeline", "Email support"]
+    },
+    {
+      "name": "Growth",
+      "price": "$49/mo",
+      "billing_period": "monthly",
+      "key_inclusions": ["Up to 15 users", "Automation rules", "Priority support"]
+    }
+  ],
+  "features": ["Pipeline management", "Email sync", "Basic reporting"],
+  "extracted_at": "2026-01-01T00:00:00Z",
+  "source_pages": ["https://acmecrm.example", "https://acmecrm.example/pricing"],
+  "extraction_confidence": "high",
+  "missing_fields": []
+}
